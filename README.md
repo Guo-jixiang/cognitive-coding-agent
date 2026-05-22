@@ -136,7 +136,7 @@ coding-agent/
 
 ```bash
 # 克隆项目
-git clone https://github.com/<your-username>/cognitive-coding-agent.git
+git clone https://github.com/Guo-jixiang/cognitive-coding-agent.git
 cd cognitive-coding-agent
 
 # 创建 conda 环境
@@ -158,11 +158,14 @@ cp .env.example .env
 ```env
 # LLM (选择一个 Provider)
 LLM_API_KEY=your-api-key
-LLM_MODEL_ID=qwen-plus
+LLM_MODEL_ID=your-model-name
 LLM_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+LLM_TIMEOUT=60
 
-# Embedding
+# Embedding 配置
 DASHSCOPE_API_KEY=your-dashscope-key
+DASHSCOPE_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+DASHSCOPE_MODEL=text-embedding-v3
 
 # 本地服务 (可选，用于持久化记忆)
 QDRANT_HOST=localhost
