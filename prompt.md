@@ -19,7 +19,7 @@
 
 ```env
 # Embedding 配置
-DASHSCOPE_API_KEY="sk-72bb477990a54a689be28098f702cd18"
+DASHSCOPE_API_KEY="key"
 DASHSCOPE_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
 DASHSCOPE_MODEL="text-embedding-v3"
 
