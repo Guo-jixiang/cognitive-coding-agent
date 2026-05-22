@@ -1,0 +1,48 @@
+# Environment and secrets
+.env
+*.env.local
+
+# Python bytecode (keep for faster imports)
+# __pycache__/ — retained
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# SQLite databases (runtime generated)
+*.db
+*.sqlite
+*.sqlite3
+
+# Qdrant/Neo4j data volumes
+qdrant_data/
+neo4j_data/
+
+# Generated/test files (not part of the project)
+two_sum.py
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Kiro (all internal files)
+.kiro/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
