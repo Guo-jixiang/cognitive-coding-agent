@@ -2,13 +2,14 @@
 .env
 *.env.local
 
-# Python bytecode (keep for faster imports)
-# __pycache__/ — retained
+# Python bytecode
+__pycache__/
 
 # Distribution / packaging
 dist/
 build/
 *.egg
+*.egg-info/
 
 # Virtual environments
 .venv/
