@@ -1,5 +1,7 @@
 # Cognitive Coding Agent
 
+English | [中文](README.md)
+
 An intelligent coding agent built on cognitive science principles, featuring a **Quad-Memory Architecture** for separated memory systems. It uses a SubAgent orchestration pattern with the Reflection paradigm to achieve autonomous reasoning, code generation, and task execution.
 
 ## Key Features
