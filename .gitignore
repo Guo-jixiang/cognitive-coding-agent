@@ -49,3 +49,4 @@ htmlcov/
 .coverage
 .coverage.*
 coverage.xml
+prompt.md
