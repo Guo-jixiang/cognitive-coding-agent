@@ -2,7 +2,7 @@
 
 English | [中文](README.md)
 
-An intelligent coding agent built on cognitive science principles, featuring a **Quad-Memory Architecture** for separated memory systems. It uses a SubAgent orchestration pattern with the Reflection paradigm to achieve autonomous reasoning, code generation, and task execution.
+> An intelligent coding agent with Quad-Memory Architecture based on cognitive science. Features SubAgent parallel orchestration, three reasoning paradigms (ReAct / Plan-and-Solve / Reflection), and dual CLI + FastAPI interfaces.
 
 ## Key Features
 

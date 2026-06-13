@@ -2,7 +2,7 @@
 
 [English](README_EN.md) | 中文
 
-基于认知科学的**四维分离记忆架构 (Quad-Memory Architecture)** 的智能编码 Agent。采用 SubAgent 编排模式，通过 Reflection 范式实现自主推理、代码编写和任务执行。
+> 基于认知科学四维记忆架构的智能编码 Agent，支持 SubAgent 并行编排与三种推理范式（ReAct / Plan-and-Solve / Reflection），提供 CLI 和 FastAPI 双接口。
 
 ## ✨ 核心特性
 
