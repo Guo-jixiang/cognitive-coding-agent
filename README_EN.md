@@ -192,6 +192,7 @@ cp .env.example .env
 Key `.env` configuration:
 ```env
 # LLM (choose a provider)
+LLM_PROVIDER=auto           # Options: openai/deepseek/qwen/modelscope/kimi/zhipu/ollama/vllm/local/auto
 LLM_API_KEY=your-api-key
 LLM_MODEL_ID=your-model-name
 LLM_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1

@@ -412,11 +412,17 @@ class LLMClient:
         """Auto-detect LLM provider from env vars and credentials.
 
         Detection logic:
+            0. Check LLM_PROVIDER env var (explicit override).
             1. Check provider-specific env vars.
             2. Infer from API key format.
             3. Infer from base_url.
             4. Default to "auto" (uses LLM_* generic vars).
         """
+        # 0. Explicit override via LLM_PROVIDER
+        explicit = os.getenv("LLM_PROVIDER", "").strip().lower()
+        if explicit and explicit in _PROVIDER_DEFAULTS:
+            return explicit
+
         # 1. Check provider-specific env vars
         if os.getenv("OPENAI_API_KEY"):
             return "openai"
